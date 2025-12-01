@@ -1,0 +1,4687 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "MPXV Prototype",
+    "updated": "2025-11-28",
+    "build_url": "https://github.com/nextstrain/zika-tutorial",
+    "maintainers": [
+      {
+        "name": "Luc van Zon",
+        "url": "https://github.com/LucvZon"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 195600,
+        "start": 1,
+        "strand": "+",
+        "type": "source",
+        "seqid": "config/reference.gb"
+      },
+      "OPG001": {
+        "end": 194729,
+        "seqid": "config/reference.gb",
+        "start": 193989,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG002": {
+        "end": 193861,
+        "seqid": "config/reference.gb",
+        "start": 192815,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG005": {
+        "end": 188097,
+        "seqid": "config/reference.gb",
+        "start": 187636,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG015": {
+        "end": 190805,
+        "seqid": "config/reference.gb",
+        "start": 189492,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG016": {
+        "end": 189375,
+        "seqid": "config/reference.gb",
+        "start": 188845,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG019": {
+        "end": 7985,
+        "seqid": "config/reference.gb",
+        "start": 7557,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG021": {
+        "end": 10297,
+        "seqid": "config/reference.gb",
+        "start": 9569,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG022": {
+        "end": 10905,
+        "seqid": "config/reference.gb",
+        "start": 10525,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG023": {
+        "end": 12947,
+        "seqid": "config/reference.gb",
+        "start": 10965,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG024": {
+        "end": 13275,
+        "seqid": "config/reference.gb",
+        "start": 13081,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG025": {
+        "end": 15327,
+        "seqid": "config/reference.gb",
+        "start": 13435,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG027": {
+        "end": 16434,
+        "seqid": "config/reference.gb",
+        "start": 15982,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG029": {
+        "end": 17130,
+        "seqid": "config/reference.gb",
+        "start": 16669,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG030": {
+        "end": 17894,
+        "seqid": "config/reference.gb",
+        "start": 17274,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG031": {
+        "end": 18886,
+        "seqid": "config/reference.gb",
+        "start": 17939,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG034": {
+        "end": 20882,
+        "seqid": "config/reference.gb",
+        "start": 20238,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG035": {
+        "end": 21281,
+        "seqid": "config/reference.gb",
+        "start": 20928,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG036": {
+        "end": 21941,
+        "seqid": "config/reference.gb",
+        "start": 21408,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG037": {
+        "end": 23310,
+        "seqid": "config/reference.gb",
+        "start": 21982,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG038": {
+        "end": 24048,
+        "seqid": "config/reference.gb",
+        "start": 23386,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG039": {
+        "end": 25031,
+        "seqid": "config/reference.gb",
+        "start": 24177,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG040": {
+        "end": 26389,
+        "seqid": "config/reference.gb",
+        "start": 25262,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG042": {
+        "end": 28011,
+        "seqid": "config/reference.gb",
+        "start": 26737,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG043": {
+        "end": 28869,
+        "seqid": "config/reference.gb",
+        "start": 28039,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG044": {
+        "end": 29454,
+        "seqid": "config/reference.gb",
+        "start": 29005,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG045": {
+        "end": 30151,
+        "seqid": "config/reference.gb",
+        "start": 29498,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG046": {
+        "end": 30618,
+        "seqid": "config/reference.gb",
+        "start": 30163,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG048": {
+        "end": 33058,
+        "seqid": "config/reference.gb",
+        "start": 32099,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG049": {
+        "end": 34042,
+        "seqid": "config/reference.gb",
+        "start": 33089,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG051": {
+        "end": 34538,
+        "seqid": "config/reference.gb",
+        "start": 34314,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG052": {
+        "end": 34884,
+        "seqid": "config/reference.gb",
+        "start": 34690,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG053": {
+        "end": 35579,
+        "seqid": "config/reference.gb",
+        "start": 34941,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG054": {
+        "end": 36885,
+        "seqid": "config/reference.gb",
+        "start": 35566,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG055": {
+        "end": 37972,
+        "seqid": "config/reference.gb",
+        "start": 36908,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG056": {
+        "end": 39923,
+        "seqid": "config/reference.gb",
+        "start": 38016,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG057": {
+        "end": 41083,
+        "seqid": "config/reference.gb",
+        "start": 39965,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG058": {
+        "end": 41322,
+        "seqid": "config/reference.gb",
+        "start": 41101,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG059": {
+        "end": 41521,
+        "seqid": "config/reference.gb",
+        "start": 41372,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG060": {
+        "end": 42070,
+        "seqid": "config/reference.gb",
+        "start": 41594,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG061": {
+        "end": 42772,
+        "seqid": "config/reference.gb",
+        "start": 42077,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG062": {
+        "end": 43139,
+        "seqid": "config/reference.gb",
+        "start": 42834,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG063": {
+        "end": 44575,
+        "seqid": "config/reference.gb",
+        "start": 43136,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG064": {
+        "end": 46785,
+        "seqid": "config/reference.gb",
+        "start": 44572,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG065": {
+        "end": 47371,
+        "seqid": "config/reference.gb",
+        "start": 46910,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG066": {
+        "end": 48311,
+        "seqid": "config/reference.gb",
+        "start": 47532,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG068": {
+        "end": 51035,
+        "seqid": "config/reference.gb",
+        "start": 49332,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG069": {
+        "end": 51617,
+        "seqid": "config/reference.gb",
+        "start": 51117,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG070": {
+        "end": 52538,
+        "seqid": "config/reference.gb",
+        "start": 51717,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG071": {
+        "end": 55566,
+        "seqid": "config/reference.gb",
+        "start": 52546,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG072": {
+        "end": 55885,
+        "seqid": "config/reference.gb",
+        "start": 55598,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG073": {
+        "end": 56269,
+        "seqid": "config/reference.gb",
+        "start": 55880,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG074": {
+        "end": 58253,
+        "seqid": "config/reference.gb",
+        "start": 56256,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG075": {
+        "end": 58626,
+        "seqid": "config/reference.gb",
+        "start": 58300,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG076": {
+        "end": 58758,
+        "seqid": "config/reference.gb",
+        "start": 58651,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG077": {
+        "end": 59711,
+        "seqid": "config/reference.gb",
+        "start": 58773,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG078": {
+        "end": 59939,
+        "seqid": "config/reference.gb",
+        "start": 59718,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG079": {
+        "end": 60749,
+        "seqid": "config/reference.gb",
+        "start": 59940,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG080": {
+        "end": 63146,
+        "seqid": "config/reference.gb",
+        "start": 60831,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG081": {
+        "end": 63414,
+        "seqid": "config/reference.gb",
+        "start": 63175,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG082": {
+        "end": 64581,
+        "seqid": "config/reference.gb",
+        "start": 63433,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG083": {
+        "end": 65845,
+        "seqid": "config/reference.gb",
+        "start": 64574,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG084": {
+        "end": 67881,
+        "seqid": "config/reference.gb",
+        "start": 65851,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG085": {
+        "end": 69660,
+        "seqid": "config/reference.gb",
+        "start": 67885,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG086": {
+        "end": 69992,
+        "seqid": "config/reference.gb",
+        "start": 69657,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG087": {
+        "end": 70648,
+        "seqid": "config/reference.gb",
+        "start": 69986,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG088": {
+        "end": 70992,
+        "seqid": "config/reference.gb",
+        "start": 70618,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG089": {
+        "end": 72299,
+        "seqid": "config/reference.gb",
+        "start": 70995,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG090": {
+        "end": 72499,
+        "seqid": "config/reference.gb",
+        "start": 72308,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG091": {
+        "end": 72996,
+        "seqid": "config/reference.gb",
+        "start": 72499,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG092": {
+        "end": 74076,
+        "seqid": "config/reference.gb",
+        "start": 72961,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG093": {
+        "end": 74889,
+        "seqid": "config/reference.gb",
+        "start": 74107,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG094": {
+        "end": 75931,
+        "seqid": "config/reference.gb",
+        "start": 74909,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG095": {
+        "end": 76684,
+        "seqid": "config/reference.gb",
+        "start": 75932,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG096": {
+        "end": 76994,
+        "seqid": "config/reference.gb",
+        "start": 76716,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG097": {
+        "end": 78004,
+        "seqid": "config/reference.gb",
+        "start": 76970,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG098": {
+        "end": 78784,
+        "seqid": "config/reference.gb",
+        "start": 78029,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG099": {
+        "end": 79180,
+        "seqid": "config/reference.gb",
+        "start": 78794,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG100": {
+        "end": 79595,
+        "seqid": "config/reference.gb",
+        "start": 79137,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG101": {
+        "end": 80148,
+        "seqid": "config/reference.gb",
+        "start": 79615,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG102": {
+        "end": 81215,
+        "seqid": "config/reference.gb",
+        "start": 80214,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG103": {
+        "end": 81687,
+        "seqid": "config/reference.gb",
+        "start": 81130,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG104": {
+        "end": 82148,
+        "seqid": "config/reference.gb",
+        "start": 81747,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG105": {
+        "end": 86115,
+        "seqid": "config/reference.gb",
+        "start": 82255,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG106": {
+        "end": 86627,
+        "seqid": "config/reference.gb",
+        "start": 86112,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG107": {
+        "end": 87210,
+        "seqid": "config/reference.gb",
+        "start": 86641,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG108": {
+        "end": 88188,
+        "seqid": "config/reference.gb",
+        "start": 87214,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG109": {
+        "end": 90576,
+        "seqid": "config/reference.gb",
+        "start": 88189,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG110": {
+        "end": 91402,
+        "seqid": "config/reference.gb",
+        "start": 90761,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG111": {
+        "end": 92347,
+        "seqid": "config/reference.gb",
+        "start": 91403,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG112": {
+        "end": 92825,
+        "seqid": "config/reference.gb",
+        "start": 92385,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG113": {
+        "end": 95406,
+        "seqid": "config/reference.gb",
+        "start": 92869,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG114": {
+        "end": 95805,
+        "seqid": "config/reference.gb",
+        "start": 95365,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG115": {
+        "end": 96499,
+        "seqid": "config/reference.gb",
+        "start": 95798,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG116": {
+        "end": 97155,
+        "seqid": "config/reference.gb",
+        "start": 96499,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG117": {
+        "end": 99544,
+        "seqid": "config/reference.gb",
+        "start": 97187,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG118": {
+        "end": 101497,
+        "seqid": "config/reference.gb",
+        "start": 99584,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG119": {
+        "end": 102009,
+        "seqid": "config/reference.gb",
+        "start": 101524,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG120": {
+        "end": 102886,
+        "seqid": "config/reference.gb",
+        "start": 101972,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG121": {
+        "end": 103569,
+        "seqid": "config/reference.gb",
+        "start": 102928,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG122": {
+        "end": 104312,
+        "seqid": "config/reference.gb",
+        "start": 103566,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG123": {
+        "end": 106208,
+        "seqid": "config/reference.gb",
+        "start": 104313,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG124": {
+        "end": 107106,
+        "seqid": "config/reference.gb",
+        "start": 106243,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG125": {
+        "end": 108792,
+        "seqid": "config/reference.gb",
+        "start": 107137,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG126": {
+        "end": 109268,
+        "seqid": "config/reference.gb",
+        "start": 108816,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG127": {
+        "end": 109963,
+        "seqid": "config/reference.gb",
+        "start": 109289,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG128": {
+        "end": 110193,
+        "seqid": "config/reference.gb",
+        "start": 109960,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG129": {
+        "end": 112142,
+        "seqid": "config/reference.gb",
+        "start": 110208,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG130": {
+        "end": 113040,
+        "seqid": "config/reference.gb",
+        "start": 112195,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG131": {
+        "end": 113563,
+        "seqid": "config/reference.gb",
+        "start": 113078,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG132": {
+        "end": 114678,
+        "seqid": "config/reference.gb",
+        "start": 113560,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG133": {
+        "end": 116834,
+        "seqid": "config/reference.gb",
+        "start": 114702,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG134": {
+        "end": 117766,
+        "seqid": "config/reference.gb",
+        "start": 116888,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG135": {
+        "end": 118049,
+        "seqid": "config/reference.gb",
+        "start": 117747,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG136": {
+        "end": 120725,
+        "seqid": "config/reference.gb",
+        "start": 118050,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG137": {
+        "end": 121696,
+        "seqid": "config/reference.gb",
+        "start": 120740,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG138": {
+        "end": 122270,
+        "seqid": "config/reference.gb",
+        "start": 121698,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG139": {
+        "end": 122506,
+        "seqid": "config/reference.gb",
+        "start": 122294,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG140": {
+        "end": 122884,
+        "seqid": "config/reference.gb",
+        "start": 122612,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG141": {
+        "end": 123062,
+        "seqid": "config/reference.gb",
+        "start": 122901,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG142": {
+        "end": 123336,
+        "seqid": "config/reference.gb",
+        "start": 123052,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG143": {
+        "end": 124453,
+        "seqid": "config/reference.gb",
+        "start": 123320,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG144": {
+        "end": 125070,
+        "seqid": "config/reference.gb",
+        "start": 124456,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG145": {
+        "end": 126563,
+        "seqid": "config/reference.gb",
+        "start": 125085,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG146": {
+        "end": 126777,
+        "seqid": "config/reference.gb",
+        "start": 126544,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG147": {
+        "end": 127125,
+        "seqid": "config/reference.gb",
+        "start": 126778,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG148": {
+        "end": 128404,
+        "seqid": "config/reference.gb",
+        "start": 127124,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG149": {
+        "end": 128897,
+        "seqid": "config/reference.gb",
+        "start": 128334,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG150": {
+        "end": 130065,
+        "seqid": "config/reference.gb",
+        "start": 128917,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG151": {
+        "end": 133556,
+        "seqid": "config/reference.gb",
+        "start": 130062,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG153": {
+        "end": 138362,
+        "seqid": "config/reference.gb",
+        "start": 136806,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG154": {
+        "end": 138745,
+        "seqid": "config/reference.gb",
+        "start": 138413,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG155": {
+        "end": 139186,
+        "seqid": "config/reference.gb",
+        "start": 138746,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG156": {
+        "end": 140104,
+        "seqid": "config/reference.gb",
+        "start": 139187,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG157": {
+        "end": 140303,
+        "seqid": "config/reference.gb",
+        "start": 140067,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG158": {
+        "end": 140464,
+        "seqid": "config/reference.gb",
+        "start": 140336,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG159": {
+        "end": 140891,
+        "seqid": "config/reference.gb",
+        "start": 140463,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG160": {
+        "end": 141760,
+        "seqid": "config/reference.gb",
+        "start": 140858,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG161": {
+        "end": 142333,
+        "seqid": "config/reference.gb",
+        "start": 141788,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG162": {
+        "end": 142844,
+        "seqid": "config/reference.gb",
+        "start": 142338,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG163": {
+        "end": 143418,
+        "seqid": "config/reference.gb",
+        "start": 142888,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG165": {
+        "end": 144973,
+        "seqid": "config/reference.gb",
+        "start": 144167,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG166": {
+        "end": 145228,
+        "seqid": "config/reference.gb",
+        "start": 145049,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG167": {
+        "end": 146058,
+        "seqid": "config/reference.gb",
+        "start": 145225,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG170": {
+        "end": 147450,
+        "seqid": "config/reference.gb",
+        "start": 146785,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG171": {
+        "end": 148047,
+        "seqid": "config/reference.gb",
+        "start": 147646,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG172": {
+        "end": 148678,
+        "seqid": "config/reference.gb",
+        "start": 148088,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG173": {
+        "end": 148922,
+        "seqid": "config/reference.gb",
+        "start": 148698,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG174": {
+        "end": 150059,
+        "seqid": "config/reference.gb",
+        "start": 149019,
+        "strand": "-",
+        "type": "CDS"
+      },
+      "OPG175": {
+        "end": 150483,
+        "seqid": "config/reference.gb",
+        "start": 150106,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG176": {
+        "end": 151195,
+        "seqid": "config/reference.gb",
+        "start": 150473,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG178": {
+        "end": 152891,
+        "seqid": "config/reference.gb",
+        "start": 152277,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG181": {
+        "end": 156182,
+        "seqid": "config/reference.gb",
+        "start": 155178,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG185": {
+        "end": 158364,
+        "seqid": "config/reference.gb",
+        "start": 157423,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG188": {
+        "end": 161616,
+        "seqid": "config/reference.gb",
+        "start": 160105,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG189": {
+        "end": 163516,
+        "seqid": "config/reference.gb",
+        "start": 161831,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG190": {
+        "end": 164573,
+        "seqid": "config/reference.gb",
+        "start": 163620,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG192": {
+        "end": 165774,
+        "seqid": "config/reference.gb",
+        "start": 165226,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG193": {
+        "end": 166632,
+        "seqid": "config/reference.gb",
+        "start": 165829,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG195": {
+        "end": 167392,
+        "seqid": "config/reference.gb",
+        "start": 166727,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG198": {
+        "end": 169380,
+        "seqid": "config/reference.gb",
+        "start": 168532,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG199": {
+        "end": 170522,
+        "seqid": "config/reference.gb",
+        "start": 169488,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG200": {
+        "end": 171105,
+        "seqid": "config/reference.gb",
+        "start": 170656,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG204": {
+        "end": 174049,
+        "seqid": "config/reference.gb",
+        "start": 172994,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG205": {
+        "end": 176484,
+        "seqid": "config/reference.gb",
+        "start": 174121,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG208": {
+        "end": 178798,
+        "seqid": "config/reference.gb",
+        "start": 177725,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG209": {
+        "end": 179549,
+        "seqid": "config/reference.gb",
+        "start": 178977,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "OPG210": {
+        "end": 185427,
+        "seqid": "config/reference.gb",
+        "start": 179788,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Burundi",
+            "#511EA8"
+          ],
+          [
+            "Democratic Republic of the Congo",
+            "#4B8FC1"
+          ]
+        ]
+      },
+      {
+        "key": "region",
+        "title": "Region",
+        "type": "categorical",
+        "scale": [
+          [
+            "Africa",
+            "#CEB541"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "country",
+      "region"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Burundi": {
+            "latitude": -3.387918,
+            "longitude": 29.920395
+          },
+          "Democratic Republic of the Congo": {
+            "latitude": -2.9814344,
+            "longitude": 23.8222636
+          }
+        }
+      },
+      {
+        "key": "region",
+        "demes": {
+          "Africa": {
+            "latitude": 4.070194,
+            "longitude": 21.824559
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2012.359,
+        "confidence": [
+          1835.312,
+          2021.898
+        ]
+      },
+      "region": {
+        "value": "Africa"
+      },
+      "country": {
+        "value": "Democratic Republic of the Congo",
+        "confidence": {
+          "Democratic Republic of the Congo": 1.0
+        },
+        "entropy": 0.0011
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 3.57861e-05,
+          "num_date": {
+            "value": 2020.822,
+            "confidence": [
+              1982.684,
+              2023.796
+            ]
+          },
+          "region": {
+            "value": "Africa"
+          },
+          "country": {
+            "value": "Democratic Republic of the Congo",
+            "confidence": {
+              "Democratic Republic of the Congo": 1.0
+            },
+            "entropy": 3.4e-05
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A2426C",
+              "G2626A",
+              "G83100A",
+              "A83104C",
+              "C83107A",
+              "A83109C",
+              "A148998T",
+              "A168221T",
+              "C192975T",
+              "T193175G"
+            ],
+            "OPG002": [
+              "S54F",
+              "S121A"
+            ],
+            "OPG105": [
+              "K284Q",
+              "P285T"
+            ]
+          },
+          "labels": {
+            "aa": "OPG002: S54F, S121A; OPG105: K284Q, P285T"
+          }
+        },
+        "children": [
+          {
+            "name": "hMpxV/DRC/HGRK-9L/2024",
+            "node_attrs": {
+              "div": 4.60108e-05,
+              "num_date": {
+                "value": 2024.04,
+                "confidence": [
+                  2024.04,
+                  2024.04
+                ],
+                "inferred": false
+              },
+              "region": {
+                "value": "Africa"
+              },
+              "country": {
+                "value": "Democratic Republic of the Congo",
+                "confidence": {
+                  "Democratic Republic of the Congo": 1.0
+                },
+                "entropy": -1e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A177116C",
+                  "A177121C"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 4.60104e-05,
+              "num_date": {
+                "value": 2022.539,
+                "confidence": [
+                  2011.045,
+                  2023.863
+                ]
+              },
+              "region": {
+                "value": "Africa"
+              },
+              "country": {
+                "value": "Democratic Republic of the Congo",
+                "confidence": {
+                  "Democratic Republic of the Congo": 1.0
+                },
+                "entropy": 1.82e-05
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A98710G",
+                  "G177008A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "hMpxV/DRC/HGRK-4L/2024",
+                "node_attrs": {
+                  "div": 6.13477e-05,
+                  "num_date": {
+                    "value": 2024.04,
+                    "confidence": [
+                      2024.04,
+                      2024.04
+                    ],
+                    "inferred": false
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": -1e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T13746C",
+                      "G114339A",
+                      "T172556A"
+                    ],
+                    "OPG025": [
+                      "K528E"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "OPG025: K528E"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 4.60104e-05,
+                  "num_date": {
+                    "value": 2023.444,
+                    "confidence": [
+                      2013.111,
+                      2024.04
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.79e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "hMpxV/DRC/HGRK-1L/2024",
+                    "node_attrs": {
+                      "div": 5.11227e-05,
+                      "num_date": {
+                        "value": 2024.04,
+                        "confidence": [
+                          2024.04,
+                          2024.04
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G193175T"
+                        ],
+                        "OPG002": [
+                          "A121S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "OPG002: A121S"
+                      }
+                    }
+                  },
+                  {
+                    "name": "hMpxV/DRC/HGRK-70/2024",
+                    "node_attrs": {
+                      "div": 4.60104e-05,
+                      "num_date": {
+                        "value": 2024.04,
+                        "confidence": [
+                          2024.04,
+                          2024.04
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000004",
+        "node_attrs": {
+          "div": 4.60107e-05,
+          "num_date": {
+            "value": 2019.615,
+            "confidence": [
+              1970.697,
+              2022.355
+            ]
+          },
+          "region": {
+            "value": "Africa"
+          },
+          "country": {
+            "value": "Democratic Republic of the Congo",
+            "confidence": {
+              "Democratic Republic of the Congo": 1.0
+            },
+            "entropy": 7.37e-09
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "G83101A",
+              "A83102T",
+              "T83103C",
+              "A83105G",
+              "G83106A",
+              "A134576G"
+            ],
+            "OPG105": [
+              "D283I",
+              "K284R"
+            ]
+          },
+          "labels": {
+            "aa": "OPG105: D283I, K284R"
+          }
+        },
+        "children": [
+          {
+            "name": "NODE_0000013",
+            "node_attrs": {
+              "div": 5.11228e-05,
+              "num_date": {
+                "value": 2022.216,
+                "confidence": [
+                  2010.916,
+                  2023.826
+                ]
+              },
+              "region": {
+                "value": "Africa"
+              },
+              "country": {
+                "value": "Democratic Republic of the Congo",
+                "confidence": {
+                  "Democratic Republic of the Congo": 1.0
+                },
+                "entropy": 1.8e-05
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G15879A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "div": 5.11228e-05,
+                  "num_date": {
+                    "value": 2023.373,
+                    "confidence": [
+                      2013.019,
+                      2024.004
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.79e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "hMpxV/DRC/HGRK-3/2024",
+                    "node_attrs": {
+                      "div": 5.62359e-05,
+                      "num_date": {
+                        "value": 2024.004,
+                        "confidence": [
+                          2024.004,
+                          2024.004
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C68007T"
+                        ],
+                        "OPG085": [
+                          "D552N"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "OPG085: D552N"
+                      }
+                    }
+                  },
+                  {
+                    "name": "hMpxV/DRC/HGRK-5/2024",
+                    "node_attrs": {
+                      "div": 5.11228e-05,
+                      "num_date": {
+                        "value": 2024.288,
+                        "confidence": [
+                          2024.288,
+                          2024.288
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 5.11228e-05,
+                  "num_date": {
+                    "value": 2022.628,
+                    "confidence": [
+                      2010.975,
+                      2024.206
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.79e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "hMpxV/DRC/HGRK-8/2024",
+                    "node_attrs": {
+                      "div": 5.62359e-05,
+                      "num_date": {
+                        "value": 2024.258,
+                        "confidence": [
+                          2024.258,
+                          2024.258
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G120824A"
+                        ],
+                        "OPG137": [
+                          "E29K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "OPG137: E29K"
+                      }
+                    }
+                  },
+                  {
+                    "name": "hMpxV/DRC/HGRK-16/2024",
+                    "node_attrs": {
+                      "div": 6.13489e-05,
+                      "num_date": {
+                        "value": 2024.206,
+                        "confidence": [
+                          2024.206,
+                          2024.206
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C147261T",
+                          "G163950A"
+                        ],
+                        "OPG170": [
+                          "A64T"
+                        ],
+                        "OPG190": [
+                          "E111K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "OPG170: A64T; OPG190: E111K"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 4.60107e-05,
+              "num_date": {
+                "value": 2020.822,
+                "confidence": [
+                  1970.683,
+                  2024.136
+                ]
+              },
+              "region": {
+                "value": "Africa"
+              },
+              "country": {
+                "value": "Democratic Republic of the Congo",
+                "confidence": {
+                  "Democratic Republic of the Congo": 1.0
+                },
+                "entropy": 1.79e-05
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "hMpxV/DRC/HGRK-15/2024",
+                "node_attrs": {
+                  "div": 5.6237e-05,
+                  "num_date": {
+                    "value": 2024.37,
+                    "confidence": [
+                      2024.37,
+                      2024.37
+                    ],
+                    "inferred": false
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": -1e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G37492A",
+                      "G106463A"
+                    ],
+                    "OPG055": [
+                      "P161S"
+                    ],
+                    "OPG124": [
+                      "S215F"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "OPG055: P161S; OPG124: S215F"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000053",
+                "node_attrs": {
+                  "div": 6.13471e-05,
+                  "num_date": {
+                    "value": 2024.194,
+                    "confidence": [
+                      2018.101,
+                      2024.332
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.79e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C70606T",
+                      "C138334T",
+                      "G167520A"
+                    ],
+                    "OPG153": [
+                      "G10E"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "OPG153: G10E"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "hMpxV/DRC/HGRK-63/2024",
+                    "node_attrs": {
+                      "div": 6.13471e-05,
+                      "num_date": {
+                        "value": 2024.332,
+                        "confidence": [
+                          2024.332,
+                          2024.332
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000054",
+                    "node_attrs": {
+                      "div": 6.64593e-05,
+                      "num_date": {
+                        "value": 2024.668,
+                        "confidence": [
+                          2024.603,
+                          2024.668
+                        ]
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -4.36e-13
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G147025A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "hMpxV/DRC/HGRK-18K/2024",
+                        "node_attrs": {
+                          "div": 6.64593e-05,
+                          "num_date": {
+                            "value": 2024.668,
+                            "confidence": [
+                              2024.668,
+                              2024.668
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "hMpxV/DRC/HGRK-16K/2024",
+                        "node_attrs": {
+                          "div": 6.64593e-05,
+                          "num_date": {
+                            "value": 2024.668,
+                            "confidence": [
+                              2024.668,
+                              2024.668
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "hMpxV/DRC/HGRK-15K/2024",
+                        "node_attrs": {
+                          "div": 6.64593e-05,
+                          "num_date": {
+                            "value": 2024.668,
+                            "confidence": [
+                              2024.668,
+                              2024.668
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "hMpxV/DRC/HGRK-11K/2024",
+                        "node_attrs": {
+                          "div": 6.64593e-05,
+                          "num_date": {
+                            "value": 2024.668,
+                            "confidence": [
+                              2024.668,
+                              2024.668
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "hMpxV/DRC/HGRK-13K/2024",
+                        "node_attrs": {
+                          "div": 6.64593e-05,
+                          "num_date": {
+                            "value": 2024.668,
+                            "confidence": [
+                              2024.668,
+                              2024.668
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "hMpxV/DRC/HGRK-12K/2024",
+                        "node_attrs": {
+                          "div": 6.64593e-05,
+                          "num_date": {
+                            "value": 2024.668,
+                            "confidence": [
+                              2024.668,
+                              2024.668
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000017",
+            "node_attrs": {
+              "div": 5.11228e-05,
+              "num_date": {
+                "value": 2020.527,
+                "confidence": [
+                  1977.514,
+                  2022.868
+                ]
+              },
+              "region": {
+                "value": "Africa"
+              },
+              "country": {
+                "value": "Democratic Republic of the Congo",
+                "confidence": {
+                  "Democratic Republic of the Congo": 1.0
+                },
+                "entropy": 1.8e-05
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T13746C"
+                ],
+                "OPG025": [
+                  "K528E"
+                ]
+              },
+              "labels": {
+                "aa": "OPG025: K528E"
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000012",
+                "node_attrs": {
+                  "div": 5.11228e-05,
+                  "num_date": {
+                    "value": 2021.819,
+                    "confidence": [
+                      2011.351,
+                      2023.514
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.79e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "hMpxV/DRC/HGRK-78/2023",
+                    "node_attrs": {
+                      "div": 5.11228e-05,
+                      "num_date": {
+                        "value": 2023.93,
+                        "confidence": [
+                          2023.93,
+                          2023.93
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000019",
+                    "node_attrs": {
+                      "div": 5.62349e-05,
+                      "num_date": {
+                        "value": 2022.971,
+                        "confidence": [
+                          2015.604,
+                          2023.867
+                        ]
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": 3.74e-09
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G114339A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "hMpxV/DRC/HGRK-27/2024",
+                        "node_attrs": {
+                          "div": 6.13479e-05,
+                          "num_date": {
+                            "value": 2024.072,
+                            "confidence": [
+                              2024.072,
+                              2024.072
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G56187A"
+                            ],
+                            "OPG073": [
+                              "S28L"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "OPG073: S28L"
+                          }
+                        }
+                      },
+                      {
+                        "name": "hMpxV/DRC/HGRK-35/2023",
+                        "node_attrs": {
+                          "div": 6.64612e-05,
+                          "num_date": {
+                            "value": 2023.867,
+                            "confidence": [
+                              2023.867,
+                              2023.867
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G93676C",
+                              "C101778T"
+                            ],
+                            "OPG113": [
+                              "V270L"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "OPG113: V270L"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "div": 5.62349e-05,
+                          "num_date": {
+                            "value": 2023.968,
+                            "confidence": [
+                              2022.93,
+                              2023.968
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.77e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-82/2023",
+                            "node_attrs": {
+                              "div": 5.62349e-05,
+                              "num_date": {
+                                "value": 2023.968,
+                                "confidence": [
+                                  2023.968,
+                                  2023.968
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-29/2024",
+                            "node_attrs": {
+                              "div": 5.62349e-05,
+                              "num_date": {
+                                "value": 2024.078,
+                                "confidence": [
+                                  2024.078,
+                                  2024.078
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000015",
+                        "node_attrs": {
+                          "div": 5.62349e-05,
+                          "num_date": {
+                            "value": 2023.124,
+                            "confidence": [
+                              2015.621,
+                              2024.149
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.77e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-92/2024",
+                            "node_attrs": {
+                              "div": 6.6461e-05,
+                              "num_date": {
+                                "value": 2024.332,
+                                "confidence": [
+                                  2024.332,
+                                  2024.332
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G113132A",
+                                  "G127448A"
+                                ],
+                                "OPG131": [
+                                  "E19K"
+                                ],
+                                "OPG148": [
+                                  "E109K"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "OPG131: E19K; OPG148: E109K"
+                              }
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-74/2024",
+                            "node_attrs": {
+                              "div": 5.62349e-05,
+                              "num_date": {
+                                "value": 2024.149,
+                                "confidence": [
+                                  2024.149,
+                                  2024.149
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000024",
+                "node_attrs": {
+                  "div": 5.62348e-05,
+                  "num_date": {
+                    "value": 2021.271,
+                    "confidence": [
+                      1982.55,
+                      2023.339
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.8e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A164372C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000020",
+                    "node_attrs": {
+                      "div": 5.62348e-05,
+                      "num_date": {
+                        "value": 2021.527,
+                        "confidence": [
+                          2011.582,
+                          2023.492
+                        ]
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": 1.82e-05
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000021",
+                        "node_attrs": {
+                          "div": 5.62348e-05,
+                          "num_date": {
+                            "value": 2022.447,
+                            "confidence": [
+                              2011.534,
+                              2023.873
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.79e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-24/2024",
+                            "node_attrs": {
+                              "div": 7.15742e-05,
+                              "num_date": {
+                                "value": 2024.064,
+                                "confidence": [
+                                  2024.064,
+                                  2024.064
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C48554T",
+                                  "C52830T",
+                                  "G121376A"
+                                ],
+                                "OPG071": [
+                                  "E913K"
+                                ],
+                                "OPG137": [
+                                  "E213K"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "OPG071: E913K; OPG137: E213K"
+                              }
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-44/2023",
+                            "node_attrs": {
+                              "div": 6.13478e-05,
+                              "num_date": {
+                                "value": 2023.873,
+                                "confidence": [
+                                  2023.873,
+                                  2023.873
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C147066T"
+                                ],
+                                "OPG170": [
+                                  "D129N"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "OPG170: D129N"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000018",
+                        "node_attrs": {
+                          "div": 5.62348e-05,
+                          "num_date": {
+                            "value": 2022.544,
+                            "confidence": [
+                              2011.619,
+                              2023.668
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.8e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-76/2024",
+                            "node_attrs": {
+                              "div": 5.62348e-05,
+                              "num_date": {
+                                "value": 2024.045,
+                                "confidence": [
+                                  2024.045,
+                                  2024.045
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "NODE_0000028",
+                            "node_attrs": {
+                              "div": 6.6459e-05,
+                              "num_date": {
+                                "value": 2023.9,
+                                "confidence": [
+                                  2023.26,
+                                  2023.9
+                                ]
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": 1.79e-05
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G55421A",
+                                  "G70807A"
+                                ],
+                                "OPG071": [
+                                  "S49L"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "OPG071: S49L"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "hMpxV/DRC/HGRK-25/2023",
+                                "node_attrs": {
+                                  "div": 6.6459e-05,
+                                  "num_date": {
+                                    "value": 2023.9,
+                                    "confidence": [
+                                      2023.9,
+                                      2023.9
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "hMpxV/DRC/HGRK-26/2023",
+                                "node_attrs": {
+                                  "div": 6.6459e-05,
+                                  "num_date": {
+                                    "value": 2023.903,
+                                    "confidence": [
+                                      2023.903,
+                                      2023.903
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000029",
+                    "node_attrs": {
+                      "div": 6.6459e-05,
+                      "num_date": {
+                        "value": 2022.128,
+                        "confidence": [
+                          1989.944,
+                          2023.844
+                        ]
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": 3.11e-07
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G102516A",
+                          "C160784T"
+                        ],
+                        "OPG120": [
+                          "S124L"
+                        ],
+                        "OPG188": [
+                          "S227F"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "OPG120: S124L; OPG188: S227F"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "hMpxV/DRC/HGRK-70/2023",
+                        "node_attrs": {
+                          "div": 7.1572e-05,
+                          "num_date": {
+                            "value": 2023.999,
+                            "confidence": [
+                              2023.999,
+                              2023.999
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C56152T"
+                            ],
+                            "OPG073": [
+                              "E40K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "OPG073: E40K"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000035",
+                        "node_attrs": {
+                          "div": 8.17955e-05,
+                          "num_date": {
+                            "value": 2023.442,
+                            "confidence": [
+                              2011.422,
+                              2024.239
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.77e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C16538T",
+                              "G53722A",
+                              "G152622A"
+                            ],
+                            "OPG178": [
+                              "E116K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "OPG178: E116K"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-14/2024",
+                            "node_attrs": {
+                              "div": 8.69087e-05,
+                              "num_date": {
+                                "value": 2024.362,
+                                "confidence": [
+                                  2024.362,
+                                  2024.362
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G171632A"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-28/2024",
+                            "node_attrs": {
+                              "div": 9.20216e-05,
+                              "num_date": {
+                                "value": 2024.239,
+                                "confidence": [
+                                  2024.239,
+                                  2024.239
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C27184T",
+                                  "C110330T"
+                                ],
+                                "OPG129": [
+                                  "D605N"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "OPG129: D605N"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000033",
+                        "node_attrs": {
+                          "div": 7.15711e-05,
+                          "num_date": {
+                            "value": 2023.389,
+                            "confidence": [
+                              2010.825,
+                              2024.253
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.77e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C99184T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-30/2024",
+                            "node_attrs": {
+                              "div": 7.66843e-05,
+                              "num_date": {
+                                "value": 2024.411,
+                                "confidence": [
+                                  2024.411,
+                                  2024.411
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T120018A"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-59/2024",
+                            "node_attrs": {
+                              "div": 7.66842e-05,
+                              "num_date": {
+                                "value": 2024.253,
+                                "confidence": [
+                                  2024.253,
+                                  2024.253
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G187695A"
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000030",
+                        "node_attrs": {
+                          "div": 7.15711e-05,
+                          "num_date": {
+                            "value": 2023.035,
+                            "confidence": [
+                              1994.967,
+                              2024.17
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 0.989,
+                              "Burundi": 0.011
+                            },
+                            "entropy": 0.0606
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G129010A"
+                            ],
+                            "OPG150": [
+                              "D32N"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "OPG150: D32N"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-9MM/2024",
+                            "node_attrs": {
+                              "div": 9.20206e-05,
+                              "num_date": {
+                                "value": 2024.622,
+                                "confidence": [
+                                  2024.622,
+                                  2024.622
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G121010A",
+                                  "C143312T",
+                                  "C150397T",
+                                  "G187385A"
+                                ],
+                                "OPG137": [
+                                  "D91N"
+                                ],
+                                "OPG163": [
+                                  "S142L"
+                                ],
+                                "OPG175": [
+                                  "Q98*"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "OPG137: D91N; OPG163: S142L; OPG175: Q98*"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000031",
+                            "node_attrs": {
+                              "div": 8.17954e-05,
+                              "num_date": {
+                                "value": 2024.011,
+                                "confidence": [
+                                  2010.912,
+                                  2024.556
+                                ]
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Burundi",
+                                "confidence": {
+                                  "Burundi": 0.991,
+                                  "Democratic Republic of the Congo": 0.00935
+                                },
+                                "entropy": 0.053
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G2626A",
+                                  "G141439A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "hMpxV/Burundi/INSP-001/2024",
+                                "node_attrs": {
+                                  "div": 8.69084e-05,
+                                  "num_date": {
+                                    "value": 2024.559,
+                                    "confidence": [
+                                      2024.559,
+                                      2024.559
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Burundi",
+                                    "confidence": {
+                                      "Burundi": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C192975T"
+                                    ],
+                                    "OPG002": [
+                                      "S54F"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "OPG002: S54F"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "hMpxV/Burundi/INSP-002/2024",
+                                "node_attrs": {
+                                  "div": 9.20214e-05,
+                                  "num_date": {
+                                    "value": 2024.556,
+                                    "confidence": [
+                                      2024.556,
+                                      2024.556
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Burundi",
+                                    "confidence": {
+                                      "Burundi": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C76081T",
+                                      "C103840T"
+                                    ],
+                                    "OPG122": [
+                                      "S92F"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "OPG122: S92F"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000025",
+            "node_attrs": {
+              "div": 4.60107e-05,
+              "num_date": {
+                "value": 2020.522,
+                "confidence": [
+                  1990.079,
+                  2023.094
+                ]
+              },
+              "region": {
+                "value": "Africa"
+              },
+              "country": {
+                "value": "Democratic Republic of the Congo",
+                "confidence": {
+                  "Democratic Republic of the Congo": 1.0
+                },
+                "entropy": 1.8e-05
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "NODE_0000026",
+                "node_attrs": {
+                  "div": 4.60107e-05,
+                  "num_date": {
+                    "value": 2022.032,
+                    "confidence": [
+                      2011.145,
+                      2024.115
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.8e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "hMpxV/DRC/HGRK-33/2024",
+                    "node_attrs": {
+                      "div": 5.62369e-05,
+                      "num_date": {
+                        "value": 2024.37,
+                        "confidence": [
+                          2024.37,
+                          2024.37
+                        ],
+                        "inferred": false
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C98950T",
+                          "G168960A"
+                        ],
+                        "OPG198": [
+                          "M143I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "OPG198: M143I"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000027",
+                    "node_attrs": {
+                      "div": 4.60107e-05,
+                      "num_date": {
+                        "value": 2023.385,
+                        "confidence": [
+                          2018.677,
+                          2024.138
+                        ]
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": 1.8e-05
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "hMpxV/DRC/HGRK-8MM/2024",
+                        "node_attrs": {
+                          "div": 4.60107e-05,
+                          "num_date": {
+                            "value": 2024.613,
+                            "confidence": [
+                              2024.613,
+                              2024.613
+                            ],
+                            "inferred": false
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": -1e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000032",
+                        "node_attrs": {
+                          "div": 4.60107e-05,
+                          "num_date": {
+                            "value": 2023.877,
+                            "confidence": [
+                              2018.761,
+                              2024.313
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.79e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-31/2024",
+                            "node_attrs": {
+                              "div": 5.11238e-05,
+                              "num_date": {
+                                "value": 2024.313,
+                                "confidence": [
+                                  2024.313,
+                                  2024.313
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G37706A"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-17K/2024",
+                            "node_attrs": {
+                              "div": 4.60107e-05,
+                              "num_date": {
+                                "value": 2024.668,
+                                "confidence": [
+                                  2024.668,
+                                  2024.668
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000034",
+                "node_attrs": {
+                  "div": 4.60107e-05,
+                  "num_date": {
+                    "value": 2021.061,
+                    "confidence": [
+                      1990.081,
+                      2023.172
+                    ]
+                  },
+                  "region": {
+                    "value": "Africa"
+                  },
+                  "country": {
+                    "value": "Democratic Republic of the Congo",
+                    "confidence": {
+                      "Democratic Republic of the Congo": 1.0
+                    },
+                    "entropy": 1.82e-05
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000036",
+                    "node_attrs": {
+                      "div": 4.60107e-05,
+                      "num_date": {
+                        "value": 2021.375,
+                        "confidence": [
+                          1990.084,
+                          2023.43
+                        ]
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": 1.82e-05
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000049",
+                        "node_attrs": {
+                          "div": 5.6235e-05,
+                          "num_date": {
+                            "value": 2024.641,
+                            "confidence": [
+                              2023.954,
+                              2024.641
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.79e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G20801A",
+                              "G182523T"
+                            ],
+                            "OPG034": [
+                              "H28Y"
+                            ],
+                            "OPG210": [
+                              "Q912H"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "OPG034: H28Y; OPG210: Q912H"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-6K/2024",
+                            "node_attrs": {
+                              "div": 5.6235e-05,
+                              "num_date": {
+                                "value": 2024.663,
+                                "confidence": [
+                                  2024.663,
+                                  2024.663
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-7N/2024",
+                            "node_attrs": {
+                              "div": 5.6235e-05,
+                              "num_date": {
+                                "value": 2024.641,
+                                "confidence": [
+                                  2024.641,
+                                  2024.641
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000038",
+                        "node_attrs": {
+                          "div": 4.60107e-05,
+                          "num_date": {
+                            "value": 2021.748,
+                            "confidence": [
+                              1990.083,
+                              2023.626
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.82e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000047",
+                            "node_attrs": {
+                              "div": 6.13471e-05,
+                              "num_date": {
+                                "value": 2024.179,
+                                "confidence": [
+                                  2023.346,
+                                  2024.179
+                                ]
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": 1.79e-05
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G19613A",
+                                  "G136816A",
+                                  "C152693T"
+                                ],
+                                "OPG153": [
+                                  "T516M"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "OPG153: T516M"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "hMpxV/DRC/HGRK-80/2024",
+                                "node_attrs": {
+                                  "div": 6.13471e-05,
+                                  "num_date": {
+                                    "value": 2024.179,
+                                    "confidence": [
+                                      2024.179,
+                                      2024.179
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "hMpxV/DRC/HGRK-84/2024",
+                                "node_attrs": {
+                                  "div": 6.13471e-05,
+                                  "num_date": {
+                                    "value": 2024.198,
+                                    "confidence": [
+                                      2024.198,
+                                      2024.198
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000041",
+                            "node_attrs": {
+                              "div": 4.60107e-05,
+                              "num_date": {
+                                "value": 2022.225,
+                                "confidence": [
+                                  1990.08,
+                                  2023.931
+                                ]
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": 1.8e-05
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "hMpxV/DRC/HGRK-5MM/2024",
+                                "node_attrs": {
+                                  "div": 5.11229e-05,
+                                  "num_date": {
+                                    "value": 2024.622,
+                                    "confidence": [
+                                      2024.622,
+                                      2024.622
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C123792T"
+                                    ],
+                                    "OPG143": [
+                                      "R221H"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "OPG143: R221H"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000011",
+                                "node_attrs": {
+                                  "div": 6.13471e-05,
+                                  "num_date": {
+                                    "value": 2024.011,
+                                    "confidence": [
+                                      2019.244,
+                                      2024.332
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": 1.79e-05
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G26575A",
+                                      "C160757T",
+                                      "G175474A"
+                                    ],
+                                    "OPG188": [
+                                      "S218F"
+                                    ],
+                                    "OPG205": [
+                                      "E452K"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "OPG188: S218F; OPG205: E452K"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "hMpxV/DRC/HGRK-86/2024",
+                                    "node_attrs": {
+                                      "div": 6.64603e-05,
+                                      "num_date": {
+                                        "value": 2024.332,
+                                        "confidence": [
+                                          2024.332,
+                                          2024.332
+                                        ],
+                                        "inferred": false
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C188116T"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "hMpxV/DRC/HGRK-34/2024",
+                                    "node_attrs": {
+                                      "div": 6.13471e-05,
+                                      "num_date": {
+                                        "value": 2024.348,
+                                        "confidence": [
+                                          2024.348,
+                                          2024.348
+                                        ],
+                                        "inferred": false
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000043",
+                    "node_attrs": {
+                      "div": 4.60107e-05,
+                      "num_date": {
+                        "value": 2022.036,
+                        "confidence": [
+                          2012.654,
+                          2023.516
+                        ]
+                      },
+                      "region": {
+                        "value": "Africa"
+                      },
+                      "country": {
+                        "value": "Democratic Republic of the Congo",
+                        "confidence": {
+                          "Democratic Republic of the Congo": 1.0
+                        },
+                        "entropy": 1.82e-05
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000040",
+                        "node_attrs": {
+                          "div": 5.11228e-05,
+                          "num_date": {
+                            "value": 2024.111,
+                            "confidence": [
+                              2023.064,
+                              2024.111
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.79e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C99432T"
+                            ],
+                            "OPG117": [
+                              "S749F"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "OPG117: S749F"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "hMpxV/DRC/HGRK-6/2024",
+                            "node_attrs": {
+                              "div": 5.11228e-05,
+                              "num_date": {
+                                "value": 2024.343,
+                                "confidence": [
+                                  2024.343,
+                                  2024.343
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "hMpxV/DRC/HGRK-43/2024",
+                            "node_attrs": {
+                              "div": 5.11228e-05,
+                              "num_date": {
+                                "value": 2024.111,
+                                "confidence": [
+                                  2024.111,
+                                  2024.111
+                                ],
+                                "inferred": false
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000045",
+                        "node_attrs": {
+                          "div": 4.60107e-05,
+                          "num_date": {
+                            "value": 2022.54,
+                            "confidence": [
+                              2020.854,
+                              2023.665
+                            ]
+                          },
+                          "region": {
+                            "value": "Africa"
+                          },
+                          "country": {
+                            "value": "Democratic Republic of the Congo",
+                            "confidence": {
+                              "Democratic Republic of the Congo": 1.0
+                            },
+                            "entropy": 1.82e-05
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000046",
+                            "node_attrs": {
+                              "div": 4.60107e-05,
+                              "num_date": {
+                                "value": 2023.539,
+                                "confidence": [
+                                  2022.02,
+                                  2024.084
+                                ]
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": 1.8e-05
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "hMpxV/DRC/HGRK-86-2/2024",
+                                "node_attrs": {
+                                  "div": 4.60107e-05,
+                                  "num_date": {
+                                    "value": 2024.395,
+                                    "confidence": [
+                                      2024.395,
+                                      2024.395
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000048",
+                                "node_attrs": {
+                                  "div": 4.60107e-05,
+                                  "num_date": {
+                                    "value": 2023.866,
+                                    "confidence": [
+                                      2022.963,
+                                      2024.245
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": 1.82e-05
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000050",
+                                    "node_attrs": {
+                                      "div": 4.60107e-05,
+                                      "num_date": {
+                                        "value": 2024.613,
+                                        "confidence": [
+                                          2023.631,
+                                          2024.613
+                                        ]
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": 1.79e-05
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-2N/2024",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2024.641,
+                                            "confidence": [
+                                              2024.641,
+                                              2024.641
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-04m/2024",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2024.613,
+                                            "confidence": [
+                                              2024.613,
+                                              2024.613
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000051",
+                                    "node_attrs": {
+                                      "div": 4.60107e-05,
+                                      "num_date": {
+                                        "value": 2024.299,
+                                        "confidence": [
+                                          2023.612,
+                                          2024.299
+                                        ]
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": 1.79e-05
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-19/2024",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2024.299,
+                                            "confidence": [
+                                              2024.299,
+                                              2024.299
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-23/2024",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2024.392,
+                                            "confidence": [
+                                              2024.392,
+                                              2024.392
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000052",
+                            "node_attrs": {
+                              "div": 4.60107e-05,
+                              "num_date": {
+                                "value": 2023.025,
+                                "confidence": [
+                                  2021.721,
+                                  2023.74
+                                ]
+                              },
+                              "region": {
+                                "value": "Africa"
+                              },
+                              "country": {
+                                "value": "Democratic Republic of the Congo",
+                                "confidence": {
+                                  "Democratic Republic of the Congo": 1.0
+                                },
+                                "entropy": 1.82e-05
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000055",
+                                "node_attrs": {
+                                  "div": 4.60107e-05,
+                                  "num_date": {
+                                    "value": 2023.555,
+                                    "confidence": [
+                                      2022.7,
+                                      2024.073
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": 1.8e-05
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "hMpxV/DRC/HGRK-20/2024",
+                                    "node_attrs": {
+                                      "div": 4.60107e-05,
+                                      "num_date": {
+                                        "value": 2024.384,
+                                        "confidence": [
+                                          2024.384,
+                                          2024.384
+                                        ],
+                                        "inferred": false
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000056",
+                                    "node_attrs": {
+                                      "div": 4.60107e-05,
+                                      "num_date": {
+                                        "value": 2024.124,
+                                        "confidence": [
+                                          2023.365,
+                                          2024.124
+                                        ]
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": 1.79e-05
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-79/2024",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2024.124,
+                                            "confidence": [
+                                              2024.124,
+                                              2024.124
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-7/2024",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2024.269,
+                                            "confidence": [
+                                              2024.269,
+                                              2024.269
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000057",
+                                "node_attrs": {
+                                  "div": 4.60107e-05,
+                                  "num_date": {
+                                    "value": 2023.451,
+                                    "confidence": [
+                                      2022.565,
+                                      2023.802
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  },
+                                  "country": {
+                                    "value": "Democratic Republic of the Congo",
+                                    "confidence": {
+                                      "Democratic Republic of the Congo": 1.0
+                                    },
+                                    "entropy": 1.8e-05
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "hMpxV/DRC/HGRK-1M/2024",
+                                    "node_attrs": {
+                                      "div": 4.60107e-05,
+                                      "num_date": {
+                                        "value": 2024.671,
+                                        "confidence": [
+                                          2024.671,
+                                          2024.671
+                                        ],
+                                        "inferred": false
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000058",
+                                    "node_attrs": {
+                                      "div": 4.60107e-05,
+                                      "num_date": {
+                                        "value": 2023.853,
+                                        "confidence": [
+                                          2023.208,
+                                          2023.853
+                                        ]
+                                      },
+                                      "region": {
+                                        "value": "Africa"
+                                      },
+                                      "country": {
+                                        "value": "Democratic Republic of the Congo",
+                                        "confidence": {
+                                          "Democratic Republic of the Congo": 1.0
+                                        },
+                                        "entropy": 1.79e-05
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-22/2024",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2024.389,
+                                            "confidence": [
+                                              2024.389,
+                                              2024.389
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "hMpxV/DRC/HGRK-45/2023",
+                                        "node_attrs": {
+                                          "div": 4.60107e-05,
+                                          "num_date": {
+                                            "value": 2023.853,
+                                            "confidence": [
+                                              2023.853,
+                                              2023.853
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "region": {
+                                            "value": "Africa"
+                                          },
+                                          "country": {
+                                            "value": "Democratic Republic of the Congo",
+                                            "confidence": {
+                                              "Democratic Republic of the Congo": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
